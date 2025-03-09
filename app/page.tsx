@@ -1,5 +1,6 @@
 import About from "@/components/home/About";
 import Hero from "@/components/home/Hero";
+import Journey from "@/components/home/Journey";
 import WhatIdo from "@/components/home/WhatIdo";
 import Image from "next/image";
 
@@ -26,6 +27,8 @@ export default function Home() {
 
         <WhatIdo />
       </div>
+
+      <Journey />
     </div>
   );
 }

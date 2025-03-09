@@ -1,8 +1,8 @@
 const WhatIdo = () => {
   return (
-    <section className=" bg-[#16161A] w-full flex flex-col md:flex-row justify-between">
+    <section className=" bg-[#16161A] w-full flex flex-col md:flex-row justify-between rounded">
       <div className="border-b md:border-b-0 md:border-r h-full md:w-1/2 flex px-6 md:pl-16">
-        <div className="py-20 md:w-[60%]">
+        <div className="py-10 md:py-20 md:w-[60%]">
           <h2 className="header text-2xl md:text-4xl font-semibold font-poppins">
             I am a passionate & versatile Builder
           </h2>
