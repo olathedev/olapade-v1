@@ -1,8 +1,19 @@
+import { SiJavascript, SiTypescript } from "react-icons/si";
+
 const Hero = () => {
   return (
     <div className="w-full h-fit md:place-items-center pt-24 md:pt-[140px] pb-[80px] space-y-10 flex flex-col md:flex-row md:justify-between">
+      <SiTypescript
+        color="#3178c6"
+        className="h-[10rem] top-20  absolute w-[3rem] -left-2 opacity-25 rotate-45 "
+      />
+
+      <SiJavascript
+        color="#F5DE19"
+        className="h-[10rem] top-[30rem]  absolute w-[3rem] -right-2 opacity-25 rotate-45 hidden md:flex"
+      />
       <div className="md:w-[50%]">
-        <div className="text-[2.8em] lg:text-[3.5em]  uppercase leading-[1.1] font-semibold md:font-bold tracking-tight font-poppins inine-flex flex-col">
+        <div className="text-[2.8em] lg:text-[3.5em]  uppercase leading-[1.1] font-semibold md:font-bold  tracking-tight font-poppins inine-flex flex-col">
           <h1 className="header">FRONTEND</h1>
           <h1 className="header">ENGINEER.</h1>
         </div>
