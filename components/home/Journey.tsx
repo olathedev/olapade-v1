@@ -7,7 +7,7 @@ const Journey = () => {
       <p className="pt-10 pb-6">(~_^)</p>
 
       <p className="md:w-[45%] font-normal leading-relaxed">
-        I've built products for companies and individuals around africa ranging
+        I&apos;ve built products for companies and individuals around africa ranging
         from marketing websites to complex solutions and enterprise apps with
         focus on fast, elegant and accessible user experiences. Currently, I
         work at Clock as a frontend engineer in the Engineering team.
@@ -15,8 +15,8 @@ const Journey = () => {
       <br />
 
       <p className="md:w-[45%] font-normal leading-relaxed">
-        Over the past three years, I've been actively learning and building
-        personal projects and company/client products. I've also spent time
+        Over the past three years, I&apos;ve been actively learning and building
+        personal projects and company/client products. I&apos;ve also spent time
         mentoring others, sharing my knowledge and helping them grow in their
         own journeys.
       </p>
