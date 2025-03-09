@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import {
   Dosis,
-  Geist,
-  Geist_Mono,
   Josefin_Sans,
   Poppins,
 } from "next/font/google";

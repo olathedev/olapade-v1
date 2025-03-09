@@ -1,5 +1,3 @@
-import React from "react";
-
 const Hero = () => {
   return (
     <div className="w-full h-fit md:place-items-center pt-24 md:pt-[140px] pb-[80px] space-y-10 flex flex-col md:flex-row md:justify-between">

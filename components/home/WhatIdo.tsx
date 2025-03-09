@@ -1,5 +1,3 @@
-import React from "react";
-
 const WhatIdo = () => {
   return (
     <section className=" bg-[#16161A] w-full flex flex-col md:flex-row justify-between">
