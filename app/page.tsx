@@ -43,15 +43,15 @@ export default function Home() {
       <Projects />
 
       <div className="mt-[8rem] mb-10 w-full flex  flex-col items-center gap-10 justify-center text-center">
-
         <p className="w-[40%] text-xl font-poppins">
-
-      I can help you design, improve or build the product experience for your new or existing products. Feel free to get in touch with me.
+          I can help you design, improve or build the product experience for
+          your new or existing products. Feel free to get in touch with me.
         </p>
 
-        <h2 className="text-[5rem] font-semibold header">Do you have any Ideas?</h2>
+        <h2 className="text-[5rem] font-semibold header">
+          Do you have any Ideas?
+        </h2>
       </div>
-
 
       <footer className="mt-16 container mx-auto px-8 py-8 md:py-10 lg:px-20">
         <p className="text-gray-500 md:text-lg">SAY HELLO</p>
