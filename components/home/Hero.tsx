@@ -1,17 +1,9 @@
-import { SiJavascript, SiTypescript } from "react-icons/si";
+import Image from "next/image";
 
 const Hero = () => {
   return (
     <div className="w-full overflow-x-hidden h-fit md:place-items-center pt-24 md:pt-[140px] pb-[80px] space-y-10 flex flex-col md:flex-row md:justify-between">
-      <SiTypescript
-        color="#3178c6"
-        className="h-[10rem] top-20  absolute w-[3rem] left-0 opacity-25 rotate-45 "
-      />
-
-      <SiJavascript
-        color="#F5DE19"
-        className="h-[10rem] top-[30rem]  absolute w-[3rem] right-0 opacity-25 rotate-45 hidden md:flex"
-      />
+ 
       <div className="md:w-[50%]">
         <div className="text-[2.8em] lg:text-[3.5em]  uppercase leading-[1.1] font-semibold md:font-bold  tracking-tight font-poppins inine-flex flex-col">
           <h1 className="header">FRONTEND</h1>
@@ -41,7 +33,9 @@ const Hero = () => {
       </div>
 
       <div className="h-full flex justify-center md:justify-end relative">
-        <div className="h-[300px] w-[90%] md:h-[400px]  md:w-[400px] top-0 bg-gray-400 right "></div>
+        <div className="relative h-[300px] w-[90%] md:h-[400px]  md:w-[400px] top-0 bg-gray-400 right ">
+          {/* <Image src="/images/me.jpg" fill alt="me" className="object-cover grayscale-50" /> */}
+        </div>
         <span className="absolute h-[300px] w-1/2 md:h-[400px] md:w-[350px] -z-10 left-2 -top-2 md:-left-[1rem] md:-top-[1rem] border-2 border-gray-400"></span>
       </div>
     </div>

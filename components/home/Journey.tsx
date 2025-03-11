@@ -1,3 +1,5 @@
+
+
 const Journey = () => {
   return (
     <div className="w-full bg-[#16161A] py-20 px-8 my-20 flex flex-col items-center font-poppins font-medium leading-[1.2] text-center">
@@ -7,10 +9,10 @@ const Journey = () => {
       <p className="pt-10 pb-6">(~_^)</p>
 
       <p className="md:w-[45%] font-normal leading-relaxed">
-        I&apos;ve built products for companies and individuals around africa ranging
-        from marketing websites to complex solutions and enterprise apps with
-        focus on fast, elegant and accessible user experiences. Currently, I
-        work at Clock as a frontend engineer in the Engineering team.
+        I&apos;ve built perosnal proejcts, as well as  products for companies and individuals ranging
+        from basic web applications to complex solutions and enterprise apps with
+        focus on fast, elegant and accessible user experiences.
+       
       </p>
       <br />
 
